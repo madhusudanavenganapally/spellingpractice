@@ -1,0 +1,106 @@
+.app-container {
+  max-width: 640px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+  margin-bottom: 1.6rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e6edf3;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  outline: none;
+}
+.input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.08);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.6rem 1rem;
+  font-size: 0.98rem;
+  border-radius: 0.6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+.btn-primary:hover { background: #1e40af; }
+
+.btn-secondary {
+  background: #f3f4f6;
+  color: #374151;
+}
+.btn-secondary:hover { background: #e5e7eb; }
+
+.btn-accent {
+  background: #10b981;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.9rem;
+}
+
+.note { font-size: 0.9rem; color: #6b7280; margin-top: 0.6rem; }
+
+.status.listening { margin-top: 0.8rem; color: #f59e0b; font-weight: 600; }
+
+.result { margin-top: 1rem; }
+
+.feedback { font-size: 1.05rem; font-weight: 700; margin-top: 0.4rem; }
+.correct { color: #16a34a; }
+.incorrect { color: #dc2626; }
+
+.repeat-row {
+  margin-top: 0.6rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.progress-container {
+  width: 100%;
+  background: #eef2ff;
+  border-radius: 0.5rem;
+  height: 10px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+.progress-bar { height: 10px; background: #7c3aed; transition: width 0.35s ease; }
+
+.congrats { background: linear-gradient(135deg, #fcd34d, #fb7185); color: #fff; }
+.hint { color: #16a34a; font-weight: 600; margin-left: 0.5rem; }
